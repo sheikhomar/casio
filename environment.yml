@@ -1,0 +1,24 @@
+name: casio
+channels:
+  - conda-forge
+  - anaconda
+  - districtdatalabs
+  - plotly
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - seaborn
+  - matplotlib
+  - jupyterlab
+  - black
+  - yellowbrick
+  - plotly=4.6.0
+  - umap-learn
+  - hdbscan
+  - pip
+  - pip:
+    - statsmodels
+
